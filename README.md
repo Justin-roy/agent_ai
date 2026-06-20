@@ -383,6 +383,11 @@ docker compose up -d ollama
 docker compose exec ollama ollama pull qwen2.5:3b
 docker compose run --rm agent
 docker compose down             # stop everything
+
+# Python UI (Run on other terminal)
+pip install streamlit
+pip install -r requirements.txt
+streamlit run app.py
 ```
 
 ---
