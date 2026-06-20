@@ -1,0 +1,4 @@
+requests
+streamlit
+pypdf
+python-docx
